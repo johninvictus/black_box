@@ -50,6 +50,13 @@ messages =
   |> Message.send()
 ```
 
+>Check your account balance
+
+```elixir
+BlackBox.Message.balance()
+```
+
+
 >The expected response
 ```
 {:ok, map, HTTPotion.Response.t()} | {integer, any, HTTPotion.Response.t()}
