@@ -14,7 +14,7 @@ defmodule BlackBox.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger, :httpoison, :exjsx]
+      extra_applications: [:logger, :httpotion, :elixir_xml_to_map]
     ]
   end
 
@@ -23,8 +23,8 @@ defmodule BlackBox.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
-      {:httpoison, "~> 1.0"},
-      {:exjsx, "~> 4.0.0"}
+      {:httpotion, "~> 3.1.0"},
+      {:elixir_xml_to_map, "~> 0.1"}
     ]
   end
 end

@@ -28,3 +28,8 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+
+config :black_box,
+  api_key: "80ed2c8f18e049a91cc97666b883fa02",
+  api_signature:
+    "v5YaFS7QlSVrqsBA9+x5nAI4J7UkJ6SDbn0MPhup890ewv0EAwh0R9JPjvS8mQ+WYV57rAKNzJ5mkd37y54sEkfTqoxjP+oovjzYZW52kzycqE0OYyGsSetTUoo9wolmqP7ttVP1j63w/oXHa85B/2ee2icGDIv+GrTrW7d4qXA="
