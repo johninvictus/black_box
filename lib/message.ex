@@ -1,6 +1,5 @@
 defmodule BlackBox.Message do
-  @type response ::
-          {:ok, :jsx.json_term(), HTTPotion.Response.t()} | {integer, any, HTTPotion.Response.t()}
+  @type response :: {:ok, map, HTTPotion.Response.t()} | {integer, any, HTTPotion.Response.t()}
 
   def new(recipient, message, sender, keyword, scheduled_date \\ "") do
     %{
