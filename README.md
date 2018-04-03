@@ -13,6 +13,13 @@ def deps do
 end
 ```
 
+Add your API keys to your config
+```elixir
+config :black_box,
+  api_key: "",
+  api_signature: ""
+```
+
 ### Usage
 
 #### create new message

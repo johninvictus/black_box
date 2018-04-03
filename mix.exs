@@ -30,7 +30,8 @@ defmodule BlackBox.MixProject do
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
       {:httpotion, "~> 3.1.0"},
-      {:elixir_xml_to_map, "~> 0.1"}
+      {:elixir_xml_to_map, "~> 0.1"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 
